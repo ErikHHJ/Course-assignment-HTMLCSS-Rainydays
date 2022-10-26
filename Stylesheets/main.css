@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    font-size: 25px;
+    background-color: #43BDED;
+    padding-top:  50px;
+    padding-right: 100px;
+    justify-content: end;
+    gap: 48px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: none;
+}
+.hover:hover{
+text-decoration: underline;
+color: white;
+}
+
+.BackgroundImg{
+    height: 900px;
+    width: 1920px;
+
+}
+.Logo{
+    height: 98px;
+    width: 309px;
+    position: absolute;
+    left: 785px;
+}
+.explorebtn{
+    position: absolute;
+    bottom: 310px;
+    left: 400px;
+    font-size: 32px;
+    padding: 12px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.explorebtn:hover{
+    color: black;
+    background-color: #43BDED;
+}
+header h1{
+    position: absolute;
+    left: 470px;
+    top: 350px;
+    font-family: 'Katibeh', cursive;
+}
